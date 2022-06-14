@@ -1,0 +1,47 @@
+{
+  "blogPosts": [
+    {
+      "id": "first-blog-post",
+      "metadata": {
+        "permalink": "/blog/first-blog-post",
+        "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2022-06-14-first-blog-post.md",
+        "source": "@site/blog/2022-06-14-first-blog-post.md",
+        "title": "First Blog Post",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
+        "date": "2022-06-14T00:00:00.000Z",
+        "formattedDate": "June 14, 2022",
+        "tags": [
+          {
+            "label": "test",
+            "permalink": "/blog/tags/test"
+          }
+        ],
+        "truncated": false,
+        "authors": [
+          {
+            "name": "Jihyo Jeon",
+            "title": "Software Engineer",
+            "url": "https://github.com/JIHYO-JEON",
+            "image_url": "https://github.com/JIHYO-JEON.png",
+            "imageURL": "https://github.com/JIHYO-JEON.png"
+          }
+        ],
+        "frontMatter": {
+          "slug": "first-blog-post",
+          "title": "First Blog Post",
+          "authors": {
+            "name": "Jihyo Jeon",
+            "title": "Software Engineer",
+            "url": "https://github.com/JIHYO-JEON",
+            "image_url": "https://github.com/JIHYO-JEON.png",
+            "imageURL": "https://github.com/JIHYO-JEON.png"
+          },
+          "tags": [
+            "test"
+          ]
+        }
+      },
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet"
+    }
+  ]
+}
