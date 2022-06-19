@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/JIHYO-JEON/jihyojeonblog/tree/main',
         },
         blog: {
           showReadingTime: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/JIHYO-JEON/jihyojeonblog/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -60,12 +60,12 @@ const config = {
         title: 'Jihyo Jeon',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/jjsmile.png',
         },
         items: [
           {
             type: 'doc',
-            docId: 'intro',
+            docId: 'Intro',
             position: 'left',
             label: 'Study',
           },
@@ -73,6 +73,11 @@ const config = {
           {
             href: 'https://github.com/JIHYO-JEON',
             label: 'GitHub',
+            position: 'right',
+          },
+          {
+            label: 'LinkedIn',
+            href: 'https://www.linkedin.com/in/jihyo-jeon',
             position: 'right',
           },
         ],
@@ -120,7 +125,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Jihyo Jeon, Inc. Built with Docusaurus.`,
+        copyright: `© 2022. Jihyo Jeon all rights reserved. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
