@@ -25,7 +25,7 @@ export default {
       "classic",
       {
         "docs": {
-          "sidebarPath": "/Users/jihyo/Documents/jihyojeonblog/sidebars.js",
+          "sidebarPath": "/Users/jihyojeon/Documents/jihyojeonblog/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "blog": {
@@ -33,7 +33,7 @@ export default {
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
         "theme": {
-          "customCss": "/Users/jihyo/Documents/jihyojeonblog/src/css/custom.css"
+          "customCss": "/Users/jihyojeon/Documents/jihyojeonblog/src/css/custom.css"
         }
       }
     ]
@@ -50,10 +50,15 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Blog"
+          "label": "Study"
         },
         {
-          "href": "https://github.com/facebook/docusaurus",
+          "to": "/blog",
+          "label": "Blog",
+          "position": "left"
+        },
+        {
+          "href": "https://github.com/JIHYO-JEON",
           "label": "GitHub",
           "position": "right"
         }
@@ -64,20 +69,15 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
-          "items": [
-            {
-              "label": "Tutorial",
-              "to": "/docs/intro"
-            }
-          ]
+          "title": "Jihyo Jeon",
+          "items": []
         },
         {
-          "title": "Community",
+          "title": "Life",
           "items": [
             {
               "label": "YouTube",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
+              "href": "https://www.youtube.com/channel/UCvx6kNlh9K_xQf7FTgrO4DQ"
             },
             {
               "label": "Twitter",
@@ -86,20 +86,20 @@ export default {
           ]
         },
         {
-          "title": "More",
+          "title": "Work",
           "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
             {
               "label": "GitHub",
               "href": "https://github.com/JIHYO-JEON"
+            },
+            {
+              "label": "LinkedIn",
+              "href": "https://www.linkedin.com/in/jihyo-jeon"
             }
           ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 Jihyo Jeon, Inc. Built with Docusaurus."
     },
     "prism": {
       "theme": {

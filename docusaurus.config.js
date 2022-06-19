@@ -67,11 +67,11 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Blog',
+            label: 'Study',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/JIHYO-JEON',
             label: 'GitHub',
             position: 'right',
           },
@@ -81,20 +81,20 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Jihyo Jeon',
             items: [
-              {
-                label: 'Tutorial',
-                to: '/docs/intro',
-              },
+              // {
+              //   label: 'Tutorial',
+              //   to: '/docs/intro',
+              // },
             ],
           },
           {
-            title: 'Community',
+            title: 'Life',
             items: [
               {
                 label: 'YouTube',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                href: 'https://www.youtube.com/channel/UCvx6kNlh9K_xQf7FTgrO4DQ',
               },
               {
                 label: 'Twitter',
@@ -103,20 +103,24 @@ const config = {
             ],
           },
           {
-            title: 'More',
+            title: 'Work',
             items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
+              // {
+              //   label: 'Blog',
+              //   to: '/blog',
+              // },
               {
                 label: 'GitHub',
                 href: 'https://github.com/JIHYO-JEON',
               },
+              {
+                label: 'LinkedIn',
+                href: 'https://www.linkedin.com/in/jihyo-jeon',
+              },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Jihyo Jeon, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

@@ -14,9 +14,9 @@
           "editUrlLocalized": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/i18n/en/docusaurus-plugin-content-docs/current",
           "isLast": true,
           "routePriority": -1,
-          "sidebarFilePath": "/Users/jihyo/Documents/jihyojeonblog/sidebars.js",
-          "contentPath": "/Users/jihyo/Documents/jihyojeonblog/docs",
-          "contentPathLocalized": "/Users/jihyo/Documents/jihyojeonblog/i18n/en/docusaurus-plugin-content-docs/current",
+          "sidebarFilePath": "/Users/jihyojeon/Documents/jihyojeonblog/sidebars.js",
+          "contentPath": "/Users/jihyojeon/Documents/jihyojeonblog/docs",
+          "contentPathLocalized": "/Users/jihyojeon/Documents/jihyojeonblog/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
               "unversionedId": "intro",

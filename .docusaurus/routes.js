@@ -4,72 +4,72 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', 'a3b'),
+    component: ComponentCreator('/__docusaurus/debug', '830'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', 'e58'),
+    component: ComponentCreator('/__docusaurus/debug/config', '8df'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', '70a'),
+    component: ComponentCreator('/__docusaurus/debug/content', '27c'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'e32'),
+    component: ComponentCreator('/__docusaurus/debug/globalData', '3e4'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '9f9'),
+    component: ComponentCreator('/__docusaurus/debug/metadata', 'e61'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', 'ff6'),
+    component: ComponentCreator('/__docusaurus/debug/registry', '85b'),
     exact: true
   },
   {
     path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', 'e43'),
+    component: ComponentCreator('/__docusaurus/debug/routes', 'e26'),
     exact: true
   },
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '0c2'),
+    component: ComponentCreator('/blog', 'd7f'),
     exact: true
   },
   {
     path: '/blog/archive',
-    component: ComponentCreator('/blog/archive', 'ab8'),
+    component: ComponentCreator('/blog/archive', 'f6d'),
     exact: true
   },
   {
     path: '/blog/first-blog-post',
-    component: ComponentCreator('/blog/first-blog-post', '6e4'),
+    component: ComponentCreator('/blog/first-blog-post', '38d'),
     exact: true
   },
   {
     path: '/blog/tags',
-    component: ComponentCreator('/blog/tags', 'edb'),
+    component: ComponentCreator('/blog/tags', 'eab'),
     exact: true
   },
   {
     path: '/blog/tags/test',
-    component: ComponentCreator('/blog/tags/test', '890'),
+    component: ComponentCreator('/blog/tags/test', '1d4'),
     exact: true
   },
   {
     path: '/markdown-page',
-    component: ComponentCreator('/markdown-page', '98b'),
+    component: ComponentCreator('/markdown-page', '639'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e0d'),
+    component: ComponentCreator('/docs', 'b6c'),
     routes: [
       {
         path: '/docs/intro',
@@ -81,7 +81,7 @@ export default [
   },
   {
     path: '/',
-    component: ComponentCreator('/', 'd35'),
+    component: ComponentCreator('/', '052'),
     exact: true
   },
   {
