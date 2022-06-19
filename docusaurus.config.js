@@ -63,13 +63,14 @@ const config = {
           src: 'img/jjsmile.png',
         },
         items: [
-          {
-            type: 'doc',
-            docId: 'Intro',
-            position: 'left',
-            label: 'Study',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          // {to: '/projects', label: 'Projects', position: 'left'},
+          // {
+          //   type: 'doc',
+          //   docId: 'Intro',
+          //   position: 'left',
+          //   label: 'Study',
+          // },
+          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/JIHYO-JEON',
             label: 'GitHub',
